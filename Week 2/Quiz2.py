@@ -1,3 +1,5 @@
+# Quiz 2
+
 name = "Diego"
 fav_food = "lasagna"
 print(name + "’s favorite food is " + fav_food) 
