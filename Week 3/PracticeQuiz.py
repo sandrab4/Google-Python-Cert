@@ -1,4 +1,4 @@
-#Practice Quiz #1 "While Loops" Week 3
+# Practice Quiz #1 "While Loops" Week 3
 
 def is_power_of_two(number):
   # This while loop checks if the "number" can be divided by two
