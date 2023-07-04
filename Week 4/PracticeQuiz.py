@@ -1,4 +1,4 @@
-#Practice Quiz "Strings" Week 4
+# Practice Quiz "Strings" Week 4
 
 def is_palindrome(input_string):
     # Two variables are initialized as string date types using empty 
