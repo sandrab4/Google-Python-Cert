@@ -1,5 +1,7 @@
 # Quiz 3
 
+
+
 starting_number = 1 # Initialize the variable
 
 while starting_number <= 7: # Complete the while loop condition
@@ -19,6 +21,8 @@ for number in range(5,-1, -1):
 # 1
 # 0
 
+
+
 def digits(n):
     count = 0
     if n == 0:
@@ -35,6 +39,8 @@ print(digits(25))   # Should print 2
 print(digits(144))  # Should print 3
 print(digits(1000)) # Should print 4
 print(digits(0))    # Should print 1
+
+
 
 def rows_asterisks(rows):
     # Complete the outer loop range to control the number of rows
@@ -57,6 +63,8 @@ rows_asterisks(5)
 # * * * * 
 # * * * * * 
 
+
+
 def countdown(start):
     x = start
     if x > 0:
@@ -74,6 +82,8 @@ def countdown(start):
 print(countdown(10)) # Should be "Counting down to 0: 10,9,8,7,6,5,4,3,2,1,0"
 print(countdown(2)) # Should be "Counting down to 0: 2,1,0"
 print(countdown(0)) # Should be "Cannot count down to 0"
+
+
 
 def even_numbers(maximum):
 

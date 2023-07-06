@@ -1,5 +1,7 @@
 # Practice Quiz "For Loops" Week 3
 
+
+
 for n in range(6,18+1,3):
     print(n*2)
 # Should print 12, 18, 24, 30, 36

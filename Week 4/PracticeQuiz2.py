@@ -1,5 +1,7 @@
 # Practice Quiz 2 "Lists" Week 4
 
+
+
 filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
 # Generate newfilenames as a list containing the new filenames
 # using as many lines of code as your chosen method requires.
@@ -7,6 +9,8 @@ newfilenames = ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"
 
 print(newfilenames) 
 # Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+
+
 
 def pig_latin(text):
   say = ""
@@ -22,6 +26,8 @@ def pig_latin(text):
 print(pig_latin("hello how are you")) # Should be "ellohay owhay reaay ouyay"
 print(pig_latin("programming in python is fun")) # Should be "rogrammingpay niay ythonpay siay unfay"
 
+
+
 def group_list(group, users):
   members = ", ".join(users)
   return group + ": " + members
@@ -29,6 +35,8 @@ def group_list(group, users):
 print(group_list("Marketing", ["Mike", "Karen", "Jake", "Tasha"])) # Should be "Marketing: Mike, Karen, Jake, Tasha"
 print(group_list("Engineering", ["Kim", "Jay", "Tom"])) # Should be "Engineering: Kim, Jay, Tom"
 print(group_list("Users", "")) # Should be "Users:"
+
+
 
 def guest_list(guests):
 	for guest in guests:
