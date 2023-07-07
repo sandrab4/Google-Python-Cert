@@ -1,5 +1,7 @@
 # Practice Quiz "Recursion" Week 3
 
+
+
 def is_power_of(number, base):
   # Base case: when number is smaller than base.
   if number < base:
@@ -12,6 +14,8 @@ def is_power_of(number, base):
 print(is_power_of(8,2)) # Should be True
 print(is_power_of(64,4)) # Should be True
 print(is_power_of(70,10)) # Should be False
+
+
 
 def count_users(group):
   count = 0
@@ -26,6 +30,8 @@ def count_users(group):
 print(count_users("sales")) # Should be 3
 print(count_users("engineering")) # Should be 8
 print(count_users("everyone")) # Should be 18
+
+
 
 def sum_positive_numbers(n):
     if n <= 0:

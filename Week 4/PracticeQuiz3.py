@@ -1,5 +1,7 @@
 # Practice Quiz 3 "Dictionaries" Week 4
 
+
+
 def email_list(domains_dictionary):
 	emails = []
 	for domain, users in domains_dictionary.items():
@@ -9,6 +11,8 @@ def email_list(domains_dictionary):
 
 print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"], "yahoo.com": ["barbara.gordon", "jean.grey"], "hotmail.com": ["bruce.wayne"]}))
 # Should print ['clark.kent@gmail.com', 'diana.prince@gmail.com', 'peter.parker@gmail.com', 'barbara.gordon@yahoo.com', 'jean.grey@yahoo.com', 'bruce.wayne@hotmail.com']
+
+
 
 def groups_per_user(group_dictionary):
     user_groups = {}
@@ -31,6 +35,8 @@ print(groups_per_user({
     "administrator": ["admin"]
 }))
 # Should print {'admin': ['local', 'public', 'administrator'], 'userA': ['local'], 'userB': ['public']}
+
+
 
 def add_prices(basket):
 	# Initialize the variable that will be used for the calculation

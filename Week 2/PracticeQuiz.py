@@ -1,8 +1,10 @@
 #Practice Quiz 1 "Expressions and Variables" Week 2
 
 
+
 print("2 + 2 = " + str(2 + 2))
 #should print 2 + 2 = 4
+
 
 
 bill = 47.28 # Assign "bill" variable with bill amount
@@ -14,11 +16,13 @@ print("Each person needs to pay: " + str(share)) # Enter the required string and
 #should print Each person needs to pay: 27.186
 
 
+
 numerator = 10
 denominator = 10
 result = numerator / denominator
 print(result)
 #should print 1.0
+
 
 
 word1 = "How"
@@ -31,6 +35,7 @@ word7 = " far?"
 
 print(word1 + word2 + word3 + word4 + word5 + word6 + word7)
 #should print How do you like Python so far?
+
 
 
 #Practice Quiz 2 "Functions" Week 2

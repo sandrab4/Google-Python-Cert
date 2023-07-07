@@ -1,5 +1,7 @@
 # Practice Quiz #1 "While Loops" Week 3
 
+
+
 def is_power_of_two(number):
   # This while loop checks if the "number" can be divided by two
   # without leaving a remainder. How can you change the while loop to
@@ -13,6 +15,7 @@ def is_power_of_two(number):
   return False
   
 
+
 # Calls to the function
 print(is_power_of_two(0)) # Should be False
 print(is_power_of_two(1)) # Should be True
@@ -21,6 +24,8 @@ print(is_power_of_two(9)) # Should be False
 
 # Fill in the blanks so that the while loop continues to run while the
 # "divisor" variable is less than the "number" parameter.
+
+
 
 def sum_divisors(number):
 # Initialize the appropriate variables
@@ -51,6 +56,8 @@ print(sum_divisors(36)) # Should print 1+2+3+4+6+9+12+18
 # 55
 print(sum_divisors(102)) # Should print 1+2+3+6+17+34+51
 # 114
+
+
 
 def multiplication_table(number):
     # Initialize the appropriate variable

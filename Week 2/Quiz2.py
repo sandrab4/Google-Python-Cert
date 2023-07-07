@@ -6,6 +6,7 @@ print(name + "’s favorite food is " + fav_food)
 #should print Diego’s favorite food is lasagna
 
 
+
 def clothing_type(temp):
     if temp>65:
         clothing = "T-Shirt"
@@ -27,6 +28,7 @@ print(clothing_type(32)) # Should print Heavy Coat
 print(clothing_type(0)) # Should print Heavy Coat
 
 
+
 def complementary_color(color):
     if color == "blue":
         complement = "orange"
@@ -46,6 +48,7 @@ print(complementary_color("Blue")) # Should print unknown
 print(complementary_color("")) # Should print unknown
 
 
+
 def difference(x, y):
     z = x - y
     return z
@@ -53,6 +56,7 @@ def difference(x, y):
 
 print(difference(5, 3))
 #should return 2
+
 
 
 def fractional_part(numerator, denominator):
